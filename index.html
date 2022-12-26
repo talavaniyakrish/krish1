@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Animation</title>
+    <style>
+        div{
+            width: 20px;
+            height: 20px;
+            background-color: aquamarine;
+            animation-name: box;
+            animation-duration: 5s;
+            animation-iteration-count:infinite;
+            animation-delay: 1s;
+            position: relative;
+            animation-direction:normal;
+        }
+        @keyframes box {
+            0%{background :rgb(47, 160, 122); left:0px; top:0px; border-radius: 100px;}
+            25%{background :red ;  left:300px; top:0px;border-radius: 100px;}
+            50%{background :rgb(27, 112, 128) ;  left:300px; top:300px;border-radius: 100px;}
+            75%{background :rgb(102, 255, 0) ;  left:0px; top:300px;border-radius: 100px;}
+            100%{background :rgb(105, 3, 83) ; left:0px; top:0px; width: 200px; height: 200px;}
+        }
+    </style>
+</head>
+<body>
+    <div>
+ 
+    </div>
+</body>
+</html>
